@@ -1,0 +1,32 @@
+/* SHIFTXFER WIDGET STYLES */
+
+#shiftxfer-container p {
+  font-size:10px;
+}
+
+#shiftxfer-ticketlist { padding:20px 0px;}
+
+#shiftxfer-add-ticket-txt{width:50px;}
+
+#shiftxfer-add-ticket-btn{margin:0 8px;}
+
+#shiftxfer-message{
+  height:15px;
+  color:#53868B;
+  font-size:10px;
+  padding-bottom:20px;
+}
+.ticket-priority{
+  width: 38px; 
+  display: inline-block;
+}
+.ticket-priority-low{color:#CDAA7D; }
+.ticket-priority-normal{color:#5F9EA0; }
+.ticket-priority-high{color:#A52A2A;  }
+.ticket-priority-urgent{color:#DC143C; }
+
+#shift-container-form{padding:0 0 10px 0;}
+
+#spinner{height:12px;width:12px;}
+
+#shiftxfer-ticketlist ul{margin-left:0px;}

@@ -1,0 +1,17 @@
+{
+  "app": {
+   "description": "Add and Remove a given tag to a ticket and then list those tickets.  Useful for grouping tickets and making them visible to agents",
+   "name":        "Ticket Tagger"
+  },
+
+  "add": {
+    "done":   "Successfully added ticket",
+    "failed": "Failed to add ticket"
+  },
+
+  "update": {
+    "done":   "Successfully updated ticket",
+    "failed": "Failed to update ticket"
+  }
+  
+}

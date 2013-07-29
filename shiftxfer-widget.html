@@ -35,7 +35,7 @@ var getTaggedTickets = function() {
         var ticketPriority = tickets.results[i].priority;
         var ticketTitle = tickets.results[i].subject + ' :: ' + tickets.results[i].description;
 
-        ticketListHTML += '<li><a class="shiftxfer-tix" href="/tickets/' + ticketId + '" title="' + ticketTitle + '">' + ticketId + '</a> - <span class="ticket-priority-' + ticketPriority + '">' + ticketPriority + '</span> - <a href="#" class="delete-ticket" id="' + ticketId + '" >remove</a></li>';
+        ticketListHTML += '<li><a class="shiftxfer-tix" href="/tickets/' + ticketId + '" title="' + ticketTitle + '">' + ticketId + '</a> - <span class="ticket-priority ticket-priority-' + ticketPriority + '">' + ticketPriority + '</span> - <a href="#" class="delete-ticket" id="' + ticketId + '" >remove</a></li>';
       }
       ticketListHTML += '</ul>';
       j$('#shiftxfer-ticketlist').html(ticketListHTML);
@@ -85,7 +85,7 @@ var getTaggedTickets = function() {
         return false;
       });
 
-      j$('shiftxfer-tix').tooltip({ hide: { effect: "explode", duration: 1000 } });
+      j$('.shiftxfer-tix').tooltip({ hide: { effect: "explode", duration: 1000 } });
 
 
     },
